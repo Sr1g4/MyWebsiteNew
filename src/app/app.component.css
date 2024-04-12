@@ -1,0 +1,61 @@
+/* app.component.css */
+:host {
+    display: block;
+    min-height: 100vh; /* Ensures it takes at least the full height of the viewport */
+    background-color: #add8e6; /* Light blue background color */
+}
+
+/* Styles for the navigation bar */
+.topnav {
+    background-color: #87cefa; /* Slightly darker shade of blue for contrast */
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.topnav nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.topnav nav ul li {
+    display: inline;
+}
+
+.topnav nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.topnav nav ul li a:hover {
+    background-color: #6495ed; /* A medium blue for hover effect */
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+    background-color: #01090f;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .scrollable-container {
+    height: 100vh; /* or any specific height */
+    overflow-y: auto;
+}
+nav{
+    background-color: #5fe6da;
+}
+div.topnav{
+    background-color: #5fe6da;
+}

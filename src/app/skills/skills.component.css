@@ -1,0 +1,10 @@
+.skills {
+    padding: 20px;
+  }
+  .skills ul {
+    list-style-type: none;
+  }
+  .skills li {
+    padding: 5px 0;
+  }
+  

@@ -1,0 +1,26 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  .screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fade-element {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1; /* Fully visible initially */
+  }
+  .fade-element.hide {
+    opacity: 0; /* Fully transparent */
+    visibility: hidden;
+  }
+  nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  html {
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,40 @@
+<div class="topnav bg-gray-800 text-white">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <!-- Mobile menu button for smaller screens -->
+    <div class="sm:hidden">
+      <button type="button" class="inline-flex items-center justify-center p-3 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <!-- Icon for menu button -->
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </div>
+    <!-- Navigation links for larger screens -->
+    <div class="hidden lg:flex lg:gap-x-12">
+      <a href="home" class="transition duration-500 ease-in-out bg-gray-100 hover:bg-gray-500 transform hover:-translate-y-1 hover:scale-110 rounded border-blue-500 px-4 py-3 text-sm font-semibold leading-6 text-teal-400">Home Menu</a>
+      <a href="about" class="text-sm font-semibold leading-6 text-white hover:bg-gray-700 hover:text-white px-4 py-3">About Sri!</a>
+      <a href="education" class="transition duration-500 ease-in-out bg-gray-100 hover:bg-gray-500 transform hover:-translate-y-1 hover:scale-110 rounded border-blue-500 px-4 py-3 text-sm font-semibold leading-6 text-teal-400">Sri's Education</a>
+      <a href="experience" class="text-sm font-semibold leading-6 text-white hover:bg-gray-700 hover:text-white px-4 py-3">Sri's Experience</a>
+      <a href="skills" class="transition duration-500 ease-in-out bg-gray-100 hover:bg-gray-500 transform hover:-translate-y-1 hover:scale-110 rounded border-blue-500 px-4 py-3 text-sm font-semibold leading-6 text-teal-400">My Skills!</a>
+      <a href="projects" class="text-sm font-semibold leading-6 text-white hover:bg-gray-700 hover:text-white px-4 py-3">My Projects</a>
+    </div>
+    <!-- SVG Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smile"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+  </nav>
+  <!-- Mobile Menu, hidden on larger screens -->
+  <div class="sm:hidden" id="mobile-menu">
+    <div class="px-3 pt-2 pb-3 space-y-1">
+      <!-- Mobile Navigation Links -->
+      <a href="home" class="block px-4 py-3 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-gray-700">Home Menu</a>
+      <a href="about" class="block px-4 py-3 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Sri!</a>
+      <a href="education" class="block px-4 py-3 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sri's Education</a>
+      <a href="experience" class="block px-4 py-3 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sri's Experience</a>
+      <a href="skills" class="block px-4 py-3 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">My Skills!</a>
+      <a href="projects" class="block px-4 py-3 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">My Projects</a>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+

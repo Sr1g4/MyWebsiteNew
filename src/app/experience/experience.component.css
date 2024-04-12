@@ -1,0 +1,12 @@
+.experience {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .experience h1, .experience h2 {
+    color: #333;
+  }
+  
+  .experience p {
+    color: #666;
+  }
